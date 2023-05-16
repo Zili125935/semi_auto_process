@@ -2,9 +2,8 @@
 
 ## Project - Sunshine Act Automation
 
-### 
-
 ### Installation
+#### prerequirement - install Python and Git
 
 Run the command following:
 
