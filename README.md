@@ -20,7 +20,6 @@ cd Documents\Projects\
 git clone https://github.com/Zili125935/semi_auto_process.git
 cd semi_auto_process
 pip install -r requirements.txt
-
 ```
 
 * Step 3:
