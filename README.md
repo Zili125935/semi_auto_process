@@ -9,9 +9,10 @@
 Run the command following:
 
 * Step 1:
-* Open Command prompt and chose your direction
+* Open Command prompt and choose the location you want to save the auto process. 
+* For example, if you want save the file in the 'Projects' under 'Documents', you can type -
 ```
-for example - cd Documents\Projects\
+cd Documents\Projects\
 ```
 ```
 git clone https://github.com/Zili125935/semi_auto_process.git
