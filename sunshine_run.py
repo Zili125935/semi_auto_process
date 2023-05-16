@@ -8,7 +8,7 @@ from datetime import datetime
 def main():
     cwd = os.getcwd()
     # filedir = cwd +  os.path.join(cwd,"export.xlsx")
-    filedir = r"%s\%s" % (cwd, 'export.xlsx')
+    filedir = r"%s\%s" % (cwd, 'EXPORT.xlsx')
     print('processing...')
     df = pd.read_excel(filedir)
     df = df[['Customer', 'Sales Doc.', 'Created on', 'SaTy', 'Name 1', 'ItCa', 'Net price', 'Ship-to char', 
