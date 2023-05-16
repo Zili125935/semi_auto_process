@@ -15,6 +15,7 @@ def main():
                 'Promotion Code Text', 'Promotion Code']]
     df = df.drop_duplicates(subset = 'Sales Doc.', keep = 'first')
     df = df.dropna(subset = 'Sales Doc.')
+    df['Ship-to char'] = df['Ship-to char'].astype('str')
     df_filtered = df[(df['Ship-to char'].isnull())| (df['Ship-to char'].str.match(r'^\d{8}$'))]
     time_string = datetime.now().strftime('%Y-%m-%d_%H%M%S')
     output_filedir = 'sun_output' + time_string + '.xlsx'
