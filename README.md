@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 * Step 2:
-Copy the file and change the name to xxx
+Copy the file under folder 'semi_auto_process' and change the name to 'EXPORR.xlsx'
 
 * Step 3:
 `python sunshine_run.py`python sunshine_run.py
