@@ -7,13 +7,13 @@
 
 Run the command following:
 
-* Step 1:
+* Step 1:\
  Open Command prompt and choose the location you want to save the auto process.\
  For example, if you want save the file in the 'Projects' under 'Documents', you can type -
 ```
 cd Documents\Projects\
 ```
-* Step 2:
+* Step 2:\
  clone the repo to your local, please copy and paste the following command in your command line
 ```
 git clone https://github.com/Zili125935/semi_auto_process.git
@@ -26,5 +26,8 @@ Rename the input excel file to 'EXPORT.xlsx' \
 copy the input excel file under folder 'semi_auto_process'\
 **Please make sure rename new input excel file everytime you use this script!**
 
-* Step 4:
-Go to Command and enter`python sunshine_run.py`
+* Step 4:\
+Go back to Command and enter
+```
+python sunshine_run.py
+```
