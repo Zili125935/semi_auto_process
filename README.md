@@ -22,7 +22,9 @@ pip install -r requirements.txt
 ```
 
 * Step 3:
-Copy the file under folder 'semi_auto_process' and change the name to 'EXPORT.xlsx'
+*Rename the input file to 'EXPORT.xlsx' 
+*copy the file under folder 'semi_auto_process'
+*Please make sure your rename the input everytime!
 
 * Step 4:
 Go to Command and enter`python sunshine_run.py`
