@@ -27,7 +27,7 @@ copy the input excel file under folder 'semi_auto_process'\
 **Please make sure rename new input excel file everytime you use this script!**
 
 * Step 4:\
-Go back to Command and enter
+Go back to Command, copy & paste the following command to run the script
 ```
 python sunshine_run.py
 ```
