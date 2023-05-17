@@ -8,7 +8,7 @@
 Run the command following:
 
 * Step 1:
- Open Command prompt and choose the location you want to save the auto process. 
+ Open Command prompt and choose the location you want to save the auto process.\
  For example, if you want save the file in the 'Projects' under 'Documents', you can type -
 ```
 cd Documents\Projects\
@@ -21,10 +21,10 @@ cd semi_auto_process
 pip install -r requirements.txt
 ```
 
-* Step 3:
-Rename the input file to 'EXPORT.xlsx' 
-copy the file under folder 'semi_auto_process'
-* Please make sure your rename the input everytime!
+* Step 3:\
+Rename the input excel file to 'EXPORT.xlsx' \
+copy the input excel file under folder 'semi_auto_process'\
+**Please make sure rename new input excel file everytime you use this script!**
 
 * Step 4:
 Go to Command and enter`python sunshine_run.py`
