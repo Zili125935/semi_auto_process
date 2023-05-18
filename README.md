@@ -18,6 +18,7 @@ cd Desktop\Sunshine Act
 ```
 git clone https://github.com/Zili125935/semi_auto_process.git
 cd semi_auto_process
+git pull
 pip install -r requirements.txt
 ```
 
