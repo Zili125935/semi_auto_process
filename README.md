@@ -11,7 +11,7 @@ Run the command following:
  Open Command prompt and choose the location you want to save the auto process.\
  For example, if you want save the file in the 'Projects' under 'Documents', you can type -
 ```
-cd Documents\Projects\
+cd Desktop\Sunshine Act
 ```
 * Step 2:\
  clone the repo to your local, please copy and paste the following command in your command line
