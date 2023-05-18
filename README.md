@@ -9,7 +9,7 @@ Open 'Command Prompt' and follow the instruction:
 
 * Step 1:\
  Open Command prompt and choose the location you want to save the auto process.\
- For example, if you want save the file in the 'Projects' under 'Documents', you can type -
+ For example, if you want save the file in the 'Sunshine Act' under 'Desktop', you can type 
 ```
 cd Desktop\Sunshine Act
 ```
@@ -44,3 +44,6 @@ cd Desktop\Sunshine Act\semi_auto_process
 git pull
 python sunshine_run.py
 ```
+* Note -
+Please note if the folder name is changed, you have to change the command as well.\
+For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be 'cd Desktop\Sunshine\semi_auto_process'
