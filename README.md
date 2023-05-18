@@ -2,7 +2,7 @@
 
 ## Project - Sunshine Act Automation
 
-### Installation
+### 1. Environment Setup
 #### Prerequisite - install Python and Git
 
 Open 'Command Prompt' and follow the instruction:
@@ -18,17 +18,29 @@ cd Desktop\Sunshine Act
 ```
 git clone https://github.com/Zili125935/semi_auto_process.git
 cd semi_auto_process
-git pull
 pip install -r requirements.txt
 ```
 
 * Step 3:\
 Rename the input excel file to 'EXPORT.xlsx' \
 copy the input excel file under folder 'semi_auto_process'\
-**Please make sure rename new input excel file everytime you use this script!**
 
 * Step 4:\
 Go back to Command, copy & paste the following command to run the script
 ```
+python sunshine_run.py
+```
+
+### 2. Daily Use
+* Step 1:\
+Rename the input excel file to 'EXPORT.xlsx'\
+copy the input excel file under folder 'semi_auto_process'\
+**Please make sure rename new input excel file everytime you use this script!**
+
+* Step 2:\
+Open 'Command Prompt', copy paste & enter
+```
+cd Desktop\Sunshine Act\semi_auto_process
+git pull
 python sunshine_run.py
 ```
