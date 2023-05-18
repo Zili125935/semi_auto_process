@@ -48,4 +48,4 @@ python sunshine_run.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
-For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be 'cd Desktop\Sunshine\semi_auto_process'
+For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be ```cd Desktop\Sunshine\semi_auto_process```
