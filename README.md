@@ -23,7 +23,7 @@ pip install -r requirements.txt
 *Remember to click 'enter'
 * Step 3:\
 Rename the input excel file to 'EXPORT.xlsx' \
-copy the input excel file under folder 'semi_auto_process'\
+copy the input excel file under folder 'semi_auto_process'
 
 * Step 4:\
 Go back to Command, copy & paste the following command to run the script
