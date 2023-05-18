@@ -20,7 +20,7 @@ git clone https://github.com/Zili125935/semi_auto_process.git
 cd semi_auto_process
 pip install -r requirements.txt
 ```
-
+*Remember to click 'enter'
 * Step 3:\
 Rename the input excel file to 'EXPORT.xlsx' \
 copy the input excel file under folder 'semi_auto_process'\
