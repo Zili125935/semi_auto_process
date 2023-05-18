@@ -5,7 +5,9 @@
 ### 1. Environment Setup
 #### Prerequisite - install Python and Git
 
-Open 'Command Prompt' and follow the instruction:
+Open 'Command Prompt' and follow the instruction\
+![command](https://github.com/Zili125935/semi_auto_process/assets/107199759/0686dfed-c293-4395-8ca9-ffecd353f1cc)
+
 
 * Step 1:\
  Open Command prompt and choose the location you want to save the auto process.\
