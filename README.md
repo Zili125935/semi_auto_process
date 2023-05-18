@@ -5,7 +5,7 @@
 ### Installation
 #### Prerequisite - install Python and Git
 
-Run the command following:
+Open 'Command Prompt' and follow the instruction:
 
 * Step 1:\
  Open Command prompt and choose the location you want to save the auto process.\
