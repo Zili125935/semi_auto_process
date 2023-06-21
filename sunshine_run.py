@@ -14,9 +14,9 @@ def main():
     df = df[['Customer', 'Sales Doc.', 'Created on', 'SaTy', 'Name 1', 'ItCa', 'Net price', 'Ship-to char', 
                 'Promotion Code Text', 'Promotion Code']]
     df = df.drop_duplicates(subset = 'Sales Doc.', keep = 'first')
-    df = df.dropna(subset = 'Sales Doc.')
+    #df = df.dropna(subset = 'Sales Doc.')
     # df['Ship-to char'] = df['Ship-to char'].astype('str')
-    df_filtered = df[(df['Ship-to char'].isna())| (df['Ship-to char'].astype('str').str.match(r'^\d{8}$'))]
+    df_filtered = df[~df['Ship-to char'].astype(str).str.contains(r'\b\d{10}\b', regex=True, na=False)]
     time_string = datetime.now().strftime('%Y-%m-%d_%H%M%S')
     output_filedir = 'sun_output' + time_string + '.xlsx'
     df_filtered.to_excel(output_filedir, index=False)
