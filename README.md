@@ -1,7 +1,7 @@
 # Semi Auto Process
 
 ## Project - Sunshine Act Automation
-### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/semi_auto_process/edit/main/README.md#environment-setup) to do the environment set up first
+### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/semi_auto_process#environment-setup) to do the environment set up first
 
 
 ### 1. Daily Use
