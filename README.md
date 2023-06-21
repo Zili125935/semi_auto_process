@@ -1,8 +1,50 @@
 # Semi Auto Process
 
 ## Project - Sunshine Act Automation
+### If this is the first time you use this script, please go to the [bottom of this page](https://github.com/Zili125935/semi_auto_process/edit/main/README.md#environment-setup) to do the environment set up first
 
-### 1. Environment Setup
+
+### 1. Daily Use
+* Step 1:\
+Rename the input excel file to 'EXPORT.xlsx'\
+copy the input excel file under folder 'semi_auto_process'\
+![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
+**Please make sure rename the new input excel file as 'EXPORT.xlsx' everytime you use this script!**
+
+* Step 2:\
+Open 'Command Prompt', copy paste & enter
+```
+cd Desktop\Sunshine Act\semi_auto_process
+git pull
+python sunshine_run.py
+```
+* Note - \
+Please note if the folder name is changed, you have to change the command as well.\
+For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
+```cd Desktop\Sunshine\semi_auto_process```
+
+### 2. Daily Use - Clearcorrect
+* Step 1:\
+Rename the input excel file to 'EXPORT CC.xlsx'\
+copy the input excel file under folder 'semi_auto_process'\
+**Please make sure rename new input excel file as 'EXPORT CC.xlsx'everytime you use this script!**
+
+* Step 2:\
+Open 'Command Prompt', copy paste & enter
+```
+cd Desktop\Sunshine Act\semi_auto_process
+git pull
+python sunshine_run_clearcorrect.py
+```
+* Note - \
+Please note if the folder name is changed, you have to change the command as well.\
+For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
+```cd Desktop\Sunshine\semi_auto_process```\
+
+
+
+
+## Environment Setup
 #### Prerequisite - install Python and Git
 
 Open 'Command Prompt' and follow the instruction\
@@ -31,42 +73,3 @@ copy the input excel file under folder 'semi_auto_process'
 Go back to Command, copy & paste the following command to run the script
 ```
 python sunshine_run.py
-```
-
-### 2. Daily Use
-* Step 1:\
-Rename the input excel file to 'EXPORT.xlsx'\
-copy the input excel file under folder 'semi_auto_process'\
-![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
-**Please make sure rename the new input excel file as 'EXPORT.xlsx' everytime you use this script!**
-
-* Step 2:\
-Open 'Command Prompt', copy paste & enter
-```
-cd Desktop\Sunshine Act\semi_auto_process
-git pull
-python sunshine_run.py
-```
-* Note - \
-Please note if the folder name is changed, you have to change the command as well.\
-For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
-```cd Desktop\Sunshine\semi_auto_process```
-
-### 3. Daily Use - Clearcorrect
-* Step 1:\
-Rename the input excel file to 'EXPORT CC.xlsx'\
-copy the input excel file under folder 'semi_auto_process'\
-**Please make sure rename new input excel file as 'EXPORT CC.xlsx'everytime you use this script!**
-
-* Step 2:\
-Open 'Command Prompt', copy paste & enter
-```
-cd Desktop\Sunshine Act\semi_auto_process
-git pull
-python sunshine_run_clearcorrect.py
-```
-* Note - \
-Please note if the folder name is changed, you have to change the command as well.\
-For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
-```cd Desktop\Sunshine\semi_auto_process```
-
