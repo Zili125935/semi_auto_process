@@ -37,6 +37,7 @@ python sunshine_run.py
 * Step 1:\
 Rename the input excel file to 'EXPORT.xlsx'\
 copy the input excel file under folder 'semi_auto_process'\
+![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
 **Please make sure rename the new input excel file as 'EXPORT.xlsx' everytime you use this script!**
 
 * Step 2:\
