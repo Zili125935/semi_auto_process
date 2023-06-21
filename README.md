@@ -37,7 +37,7 @@ python sunshine_run.py
 * Step 1:\
 Rename the input excel file to 'EXPORT.xlsx'\
 copy the input excel file under folder 'semi_auto_process'\
-**Please make sure rename new input excel file everytime you use this script!**
+**Please make sure rename the new input excel file as 'EXPORT.xlsx' everytime you use this script!**
 
 * Step 2:\
 Open 'Command Prompt', copy paste & enter
@@ -50,3 +50,22 @@ python sunshine_run.py
 Please note if the folder name is changed, you have to change the command as well.\
 For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
 ```cd Desktop\Sunshine\semi_auto_process```
+
+### 3. Daily Use - Clearcorrect
+* Step 1:\
+Rename the input excel file to 'EXPORT CC.xlsx'\
+copy the input excel file under folder 'semi_auto_process'\
+**Please make sure rename new input excel file as 'EXPORT CC.xlsx'everytime you use this script!**
+
+* Step 2:\
+Open 'Command Prompt', copy paste & enter
+```
+cd Desktop\Sunshine Act\semi_auto_process
+git pull
+python sunshine_run_clearcorrect.py
+```
+* Note - \
+Please note if the folder name is changed, you have to change the command as well.\
+For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
+```cd Desktop\Sunshine\semi_auto_process```
+
