@@ -8,7 +8,7 @@ from datetime import datetime
 def main():
     cwd = os.getcwd()
     # filedir = cwd +  os.path.join(cwd,"export.xlsx")
-    filedir = r"%s\%s" % (cwd, 'EXPORT_CC.xlsx')
+    filedir = r"%s\%s" % (cwd, 'EXPORT CC.xlsx')
     print('processing...')
     df = pd.read_excel(filedir)
     df = df[['Customer', 'Sales Doc.', 'Created on', 'SaTy', 'Name 1', 'ItCa', 'Net price', 'Ship-to char', 
@@ -19,7 +19,7 @@ def main():
     #df_filtered = df[~df['Ship-to char'].astype(str).str.contains(r'\b\d{10}\b', regex=True, na=False)]
     time_string = datetime.now().strftime('%Y-%m-%d_%H%M%S')
     output_filedir = 'sun_output_clearcorrect' + time_string + '.xlsx'
-    df_filtered.to_excel(output_filedir, index=False)
+    df.to_excel(output_filedir, index=False)
     print('completed! Result file stored as ' + output_filedir)
 
 if __name__ == "__main__":
