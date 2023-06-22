@@ -6,8 +6,8 @@
 
 ### 1. Daily Use
 * Step 1:\
-Rename the input excel file to 'EXPORT.xlsx'\
-copy the input excel file under folder 'Sunshine Act'\ 'semi_auto_process'\
+Rename the input Excel file to 'EXPORT.xlsx'\
+copy the input Excel file under the folder 'Sunshine Act','semi_auto_process'\
 ![input](https://github.com/Zili125935/semi_auto_process/assets/107199759/1c6ae8e4-580e-4e31-a672-3bdd88ec97e9)
 **Please make sure rename the new input excel file as 'EXPORT.xlsx' everytime you use this script!**
 
@@ -20,7 +20,7 @@ python sunshine_run.py
 ```
 * Note - \
 Please note if the folder name is changed, you have to change the command as well.\
-For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
+For example, if the folder 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
 ```cd Desktop\Sunshine\semi_auto_process```
 
 ### 2. Daily Use - Clearcorrect
