@@ -21,7 +21,7 @@ def main():
     time_string = datetime.now().strftime('%Y-%m-%d_%H%M%S')
     output_filedir = 'sun_output' + time_string + '.xlsx'
     df_selected.to_excel(output_filedir, index=False)
-    print('completed! Result file stored as ' + output_filedir)
+    print('completed! Result file saved as ' + output_filedir)
 
 if __name__ == "__main__":
     sys.exit(main())
