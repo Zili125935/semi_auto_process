@@ -17,9 +17,10 @@ def main():
     #df = df.dropna(subset = 'Sales Doc.')
     # df['Ship-to char'] = df['Ship-to char'].astype('str')
     df_filtered = df[~df['Ship-to char'].astype(str).str.contains(r'\b\d{10}\b', regex=True, na=False)]
+    df_selected = df_filtered[df_filtered['SaTy'] != 'ZB2B']
     time_string = datetime.now().strftime('%Y-%m-%d_%H%M%S')
     output_filedir = 'sun_output' + time_string + '.xlsx'
-    df_filtered.to_excel(output_filedir, index=False)
+    df_selected.to_excel(output_filedir, index=False)
     print('completed! Result file saved as ' + output_filedir)
 
 if __name__ == "__main__":
