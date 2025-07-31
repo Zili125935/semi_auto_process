@@ -40,7 +40,14 @@ python sunshine_run_clearcorrect.py
 Please note if the folder name is changed, you have to change the command as well.\
 For example, if the 'Sunshine Act' has be changed to 'Sunshine', the first command will be\
 ```cd OneDrive - STG-Business\Desktop\Sunshine\semi_auto_process```
-
+* Note 2 - \
+There is a chance your OneDrive path is starting with ```OneDrive - Straumann Group```. Please check your file path carefully.
+If your file path is ```OneDrive - Straumann Group```, please use the following command.
+```
+cd OneDrive - Straumann Group\Desktop\Sunshine Act\semi_auto_process
+git pull
+python sunshine_run_clearcorrect.py
+```
 
 
 
